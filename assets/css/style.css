@@ -1,0 +1,164 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html styles*/
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+/*body styles*/
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background: url("../images/bg-img.png");
+  font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  color: #777777;
+}
+
+/*header styles*/
+h1, h2, h3, h4, h5 {
+
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #4aaaa5;
+	font-weight: 600;
+}
+
+/*footer styles*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: grey;
+  text-align: center;
+  border-top: thick solid;
+  border-color: #4aaaa5;
+  padding: 10px;
+  background-color: #666666;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*padding/margin around container and body*/
+body > .container {
+  padding: 60px 15px 0;b     nbvbnmnvbnm
+  margin: 0 auto;
+
+}
+
+/*set font for nav brand text*/
+.navbar-brand {
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+	font-weight: 600;
+}
+
+/*footer and container styles*/
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*change bootstrap nav bar details*/
+.navbar-default .navbar-brand {
+  background-color: #4aaaa5;
+  color: white;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+/*remove stlyes when hovering nav brand*/
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  background-color: #4aaaa5;
+  color: white;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+/*stretch email text area to width of div*/
+.email-form input {
+  width: 100%;
+}
+
+/*outline images using this class when mouse hovers over*/
+.hover-outline:hover {
+  outline: 5px solid gray;
+  outline-offset: 10px;
+}
+
+/*strech email form input boxes to the width of the div*/
+.email-form textarea {
+  width: 100%;
+}
+
+/*change submit button color*/
+.btn-info {
+  background-image: -webkit-linear-gradient(top,#4aaaa5 0,#4aaaa5 100%);
+}
+
+/*left column info*/
+.left-col {
+  border: solid thin;
+  padding: 20px;
+  background-color: white;
+  border-color: #cccccc;
+  margin-bottom: 10px;
+}
+
+/*connect with me column*/
+.right-col {
+  border: solid thin;
+  border-color: #cccccc;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*profile picture*/
+#headshot {
+  float: left;
+  padding-right: 20px;
+}
+
+/*connect with me images*/
+.connect-image img {
+  width: 50px;
+  height: 50px;
+}
+
+/*portfolio image layout / location*/
+.img-txt-1 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/*portfolio page header*/
+#portfolio-imgs h1 {
+  text-align: left;
+}
+
+/*center images in div for portfolio*/
+#portfolio-imgs {
+  text-align: center;
+}
+
+/*inner text within portfolio images*/
+.img-txt-1 span {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-top: -1em;
+  margin-left: -50%;
+  width: 100%;
+  color: white;
+  background-color: #4aaaa5;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Georgia'
+}
